@@ -1,0 +1,51 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Evitar scroll horizontal */
+body {
+  overflow-x: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Hero section */
+section.bg-light {
+  background-color: #eef0f4 !important;
+}
+
+/* Botón principal */
+.btn-primary {
+  background-color: #4b0082;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #36005e;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #222 !important;
+}
+
+/* Nav */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Columnas */
+.border {
+  border-color: #ccc !important;
+}
